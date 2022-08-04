@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       },
       theme: ThemeData.light().copyWith(
         appBarTheme:const AppBarTheme(
-         color: Colors.red 
+         color: Colors.cyan, 
         )
       )
     
