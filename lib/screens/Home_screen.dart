@@ -17,11 +17,14 @@ class HomeScreen extends StatelessWidget {
           icon:const Icon(Icons.search_outlined))
       ],
       ),
-      body: Column(
-        children: [
+      body: SingleChildScrollView(
+        child: Column(
+        children:const [
           CardSwiper(),
+          MovieSlider(),
+          
         ],
-      ),
+      ),)
     );
   }
 }
