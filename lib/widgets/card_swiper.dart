@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 class CardSwiper extends StatelessWidget {
   const CardSwiper({Key? key}) : super(key: key);
 
+ 
+
   
 
   @override
@@ -27,7 +29,7 @@ final size = MediaQuery.of(context).size;
               borderRadius: BorderRadius.circular(20),
               child:const FadeInImage(
                 placeholder:AssetImage("assets/no-image.jpg"), 
-                image: NetworkImage("https://via.placeholder.com/300x400"),
+                image: NetworkImage("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/96/17/42/place-of-assembly-for.jpg?w=500&h=400&s=1"),
                 fit: BoxFit.cover,
                 ),
             ),

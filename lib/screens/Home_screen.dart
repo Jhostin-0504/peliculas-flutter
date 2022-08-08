@@ -4,6 +4,8 @@ import 'package:peliculas/widgets/widgwts.dart';
 
 
 class HomeScreen extends StatelessWidget {
+  const HomeScreen({Key? key}) : super(key: key);
+
   
 
   @override

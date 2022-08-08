@@ -49,7 +49,7 @@ class _MoviPoster extends StatelessWidget {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(20),
                       child:const FadeInImage(placeholder:AssetImage("assets/no-image.jpg") , 
-                      image: NetworkImage("https://via.placeholder.com/300x400"),
+                      image: NetworkImage("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/96/17/42/place-of-assembly-for.jpg?w=500&h=400&s=1s"),
                       width: 130,
                       height: 200,
                       fit: BoxFit.cover,
